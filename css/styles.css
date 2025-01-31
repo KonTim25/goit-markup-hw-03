@@ -211,15 +211,22 @@ nav,
   color: #434455;
 }
 
+.section-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .section-portfolio > ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
-.section-portfolio > ul > li {
+/* .section-portfolio > ul > li {
   width: calc((100% - 48px) / 3);
-}
+} */
 
 .section-portfolio .section-title {
   font-weight: 700;
