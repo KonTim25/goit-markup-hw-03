@@ -111,7 +111,6 @@ nav,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* gap: 48px; */
 }
 
 .section-top .page-title {
@@ -148,6 +147,7 @@ nav,
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-top: 120px;
 }
 
 .section-why > h2 {
@@ -175,6 +175,7 @@ nav,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 120px;
 }
 
 .section-team > ul {
@@ -215,6 +216,7 @@ nav,
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 120px;
 }
 
 .section-portfolio > ul {
@@ -253,6 +255,13 @@ nav,
 
 .footer {
   background-color: #2e2f42;
+  /* height: 312px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 156px; */
+  margin-top: 120px;
+  padding: 100px 156px;
 }
 
 .footer .logo > .logo-studio {
@@ -262,6 +271,7 @@ nav,
 .footer .text {
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 
 /*  */
