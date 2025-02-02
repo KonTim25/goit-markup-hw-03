@@ -267,7 +267,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-desc {
@@ -297,10 +297,13 @@ img {
   padding: 100px 0;
 }
 
-.footer .logo > .logo-studio {
-  color: #f4f4fd;
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer .logo > .logo-studio {
+  color: #f4f4fd;
 }
 
 .footer .text {
